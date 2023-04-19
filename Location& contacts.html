@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and Beverages Industry</title>
+    <style>
+        body{
+            background-color:  grey;
+            margin: 0%;
+        }
+        .sub {
+            position: relative;
+            text-align: center;
+            color: white;
+            font-size: 5vw;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: "lucida handwriting";
+        }
+        .centered:hover{
+            color: rgb(184, 76, 76);
+        }
+        ul{
+            list-style-type: none;
+            background-color: black;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+            font-size: 1.5vw;
+            margin: 1%;
+            transition-duration: 1s;
+
+        }
+        ol{
+            list-style-type: none;
+            background-color: lightslategray;
+            overflow: hidden;
+            display: grid;
+            height: 20vh;
+
+        }
+        .contact{
+            margin-top: 5%;
+            width: 100%;
+            text-align: center;
+            
+        }
+        .contact:hover{
+            color: bisque;
+        }
+        .Location{
+            background-color: lightslategray;
+            height: 25%;
+            width: 100%;
+            text-align: center;
+            display: grid;
+            margin-top: 10%;
+            font-size: 2vw;
+        }
+        
+        .location:hover{
+            color: bisque;
+        }
+        .imloc{
+            margin: 1%;
+            width: 95vw;
+            height: 60%;
+            background-image: url(loaction1.jpg);
+            background-size: 100% 100%;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            animation: changeimage 10s linear infinite ;
+            border: solid;
+            border-color: bisque;
+            border-radius: 25px;
+
+
+        }
+
+        @keyframes changeimage{
+            0% {
+                background-image: url(loaction1.jpg);
+                
+            }
+            25% {
+                background-image: url(location2.jpg) ;
+                
+            }
+            50% {
+                background-image: url(location3.jpg) ;
+                
+            }
+            75% {
+                background-image: url(loaction4.jpg) ;
+                
+            }
+            100% {
+                background-image: url(loaction1.jpg) ;
+                
+            }
+        }
+        a{
+            color: darkblue;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="sub">
+        <img src="head4.jpg" alt="does not exists" height="40%" width="100%">
+        <div class="centered">Location & contact us</div>
+    </div>
+    <div class="NavBAr">
+        <ul>
+            <li><a href="Home-page.html">Home</a></li>
+            <li><a href="index.html">About us</a></li>
+            <li><a href="Products _page.html">Products</a></li>
+            <li><a href="Location& contacts.html">Location & contact us</a></li>
+            <li><a href="Feedback _form.html">Feedback </a></li>
+    
+        </ul>
+    </div>
+    <div class="imloc"> </div>
+
+    <div class="Location">
+        <p>Location:-6473 Somayaji Ville,Lake Chandramaniton,<br>
+            State:-Meghalaya,<br>
+            Zip-code:-025 030
+        </p>
+    </div>
+
+    
+    <div class="contact">
+        <ol>
+            <li>Contact No:- (+91)9990262813</li>
+            <li><a href=mailto:-xyz@gmail.com>Email-Id:-xyz@gmail.com</a></li>
+        </ol>
+
+    </div>
+</body>
+</html>
